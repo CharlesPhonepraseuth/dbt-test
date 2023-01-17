@@ -7,7 +7,10 @@
 ),
 
 final as (
-    select * from pop
+    -- select * from pop
+    select 
+    (total_population / 100)::numeric(16, 1)
+ as divide from pop
 )
 
 select * from final

@@ -3,7 +3,8 @@ with pop as (
 ),
 
 final as (
-    select * from pop
+    -- select * from pop
+    select {{ divide_by_hundred('total_population')}} as divide from pop
 )
 
 select * from final
