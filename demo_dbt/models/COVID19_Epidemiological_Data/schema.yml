@@ -8,3 +8,5 @@ sources:
       tables:
         - name: DEMOGRAPHICS
           description: 'Ceci est un test.'
+        - name: APPLE_MOBILITY
+          description: 'Ceci est un autre test.'
