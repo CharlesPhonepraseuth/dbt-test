@@ -2,9 +2,20 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
+Copy paste `profiles_example.yml` to `.dbt/profiles.yml` and modify informations
+
+Check connection with data warehouse:
+- `dbt debug`
+
+Use seeder files:
+- `dbt seed`
+
+To compile file:
+- `dbt build`
+
 Try running the following commands:
-- dbt run
-- dbt test
+- `dbt run`
+- `dbt test`
 
 
 ### Resources:
