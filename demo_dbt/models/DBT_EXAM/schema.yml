@@ -6,19 +6,4 @@ sources:
       database: DBT_EXAM
       loader: S3
       schema: PUBLIC
-      tables:
-        - name: artist
-          ext_full_refresh: true
-          description: 'description of artist table'
-          external:
-            location: "@s3_data/Artist"
-          columns:
-            - name: artistid
-              data_type: number
-            - name: birthyear
-              data_type: varchar
-            - name: country
-              data_type: varchar  
-            - name: name
-              data_type: number
-      
+
